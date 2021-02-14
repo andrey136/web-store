@@ -194,6 +194,42 @@ body{
   height: 45px
 }
 
+/* Information Form ------------------------------------------------------------------- */
+
+.information-form{
+  height: 350px;
+  background: transparent;
+}
+
+/* .blue{
+  background: rgba(0, 0, 255, 0.678);
+  height: 350px;
+  width: 500px;
+  float: left;
+} */
+
+.blue{
+  background: white;
+  height: 350px;
+  width: 500px;
+  float: left;
+  border-radius: 5px;
+}
+
+/* .green{
+  background: rgba(0, 128, 0, 0.548);
+  height: 350px;
+  width: 360px;
+  float: right;
+} */
+
+.green{
+  background: white;
+  height: 350px;
+  width: 360px;
+  float: right;
+  border-radius: 5px;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

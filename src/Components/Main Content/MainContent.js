@@ -1,4 +1,5 @@
 import React from 'react';
+import InformationForm from './InformationForm';
 import '../../App.css';
 
 class MainContent extends React.Component {
@@ -49,6 +50,7 @@ class MainContent extends React.Component {
                 
             </div>
         </div>
+        <InformationForm />
     </div>
   );
     }
