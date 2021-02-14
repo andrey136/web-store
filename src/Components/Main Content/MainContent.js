@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Banner from './Banner'
 
 class MainContent extends React.Component {
     render(){
         return (
     <div className="main-content">
         <div className="first-banner">
-            Banner
+            <Banner />
         </div>
         <div className="first-row-products">
             <h2>Хиты продаж</h2>
