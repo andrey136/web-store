@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0f7a6e5.chunk.css",
-    "main.js": "/static/js/main.f9f96b80.chunk.js",
-    "main.js.map": "/static/js/main.f9f96b80.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ae18d763.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ae18d763.js.map",
-    "static/js/2.aeb14589.chunk.js": "/static/js/2.aeb14589.chunk.js",
-    "static/js/2.aeb14589.chunk.js.map": "/static/js/2.aeb14589.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b0f7a6e5.chunk.css.map": "/static/css/main.b0f7a6e5.chunk.css.map",
-    "static/js/2.aeb14589.chunk.js.LICENSE.txt": "/static/js/2.aeb14589.chunk.js.LICENSE.txt"
+    "main.css": "/web-store-client/static/css/main.b0f7a6e5.chunk.css",
+    "main.js": "/web-store-client/static/js/main.f9f96b80.chunk.js",
+    "main.js.map": "/web-store-client/static/js/main.f9f96b80.chunk.js.map",
+    "runtime-main.js": "/web-store-client/static/js/runtime-main.9bd65cad.js",
+    "runtime-main.js.map": "/web-store-client/static/js/runtime-main.9bd65cad.js.map",
+    "static/js/2.aeb14589.chunk.js": "/web-store-client/static/js/2.aeb14589.chunk.js",
+    "static/js/2.aeb14589.chunk.js.map": "/web-store-client/static/js/2.aeb14589.chunk.js.map",
+    "index.html": "/web-store-client/index.html",
+    "static/css/main.b0f7a6e5.chunk.css.map": "/web-store-client/static/css/main.b0f7a6e5.chunk.css.map",
+    "static/js/2.aeb14589.chunk.js.LICENSE.txt": "/web-store-client/static/js/2.aeb14589.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae18d763.js",
+    "static/js/runtime-main.9bd65cad.js",
     "static/js/2.aeb14589.chunk.js",
     "static/css/main.b0f7a6e5.chunk.css",
     "static/js/main.f9f96b80.chunk.js"
