@@ -1,8 +1,200 @@
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+body{
+  background: #f6f6f6;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+.flex_container{
+  display: flex;
+}
+
+.LandingPage{
+  font-size: 40px;
+}
+/* Header ------------------------------------------------------------------- */
+
+.MainNavigation{
+  margin-top: 20px;
+  background: orchid;
+  color: white;
+  padding: 10px 0;
+}
+
+.MainNavigation li{
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: default;
+}
+
+.MainNavigation li:hover{
+  background: rgb(238, 154, 235);
+  border-radius: 3px;
+}
+
+.MainNavigation .link:hover{
+  color: orangered;
+  cursor: pointer;
+}
+
+.subNav{
+  background: white;
+}
+
+.subNav .container{
+  padding: 10px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subNav .container div{
+  display: inline-block;
+}
+
+.cart{
+  margin-right: 40px;
+  font-size: 1.3em;
+}
+
+.cartSingUpNav:last-child{
+  margin-right: 0
+}
+
+.subNav .input-group .btn{
+  vertical-align: inherit;
+}
+
+.subNav .input-group .btn:hover{
+  background:rgb(238, 154, 235)
+}
+
+.subNav .input-group .form-control{
+  display: inline;
+  width: 200px;
+}
+
+.subNav .input-group{
+  width:unset;
+}
+
+.subNav .mb-3{
+  margin-bottom: 0!important;
+}
+
+.logo{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.8em;
+  position: relative;
+}
+
+.singIn{
+  font-size: 1.3em;
+  padding-top: 4px;
+}
+
+/* Main Content ------------------------------------------------------------------- */
+
+.sample{
+  margin: 20px auto;
+  width: 960px;
+  height: 230px;
+  background: white;
+  border-radius: 5px;
+}
+
+.first-banner{
+  width: 960px;
+  height: 150px;
+  background: white;
+  border-radius: 5px;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(103, 138, 34);
+  margin: 20px auto;
+}
+
+.first-row-products{
+  margin: 20px auto;
+  width: 960px;
+  height: 230px;
+  background: white;
+  border-radius: 5px;
+  color: rgb(103, 138, 34);
+  font-size: 3em;
+}
+
+.first-row-products h2{
+  text-align: left;
+  font-size: 44px;
+  padding-left: 20px;
+}
+
+.row-products{
+  margin-top: 20px;
+  background: rgba(255, 255, 0, 0.329);
+}
+
+.row-products .flex-container{
+  justify-content: space-evenly;
+}
+
+.product{
+  height: 120px;
+  width: 320px;
+  background: rgba(204, 120, 204, 0.52);
+  display: flex;
+}
+
+.product .img{
+  width: 120px;
+  height: 120px;
+  background: rgba(205, 134, 63, 0.527);
+}
+
+.product .img img{
+  display: inline-block;
+}
+
+.Description{
+  display: inline-block;
+  height: 120px;
+  width: 200px;
+}
+
+.Description .model-info{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-top: 15px;
+  height: 55px;
+}
+
+.Description .model-price{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 15px 7px 0;
+  height: 45px
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +227,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
