@@ -194,6 +194,36 @@ body{
   height: 45px
 }
 
+/* Footer ------------------------------------------------------------------------------------ */
+
+.main-footer{
+  background: rgb(39, 34, 34);
+  height: 200px;
+  width: 100%
+
+}
+
+.footer-seperate-line{
+  height: 1px;
+  background:grey;
+}
+
+.main-footer-container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.companiy-loggo-footer{
+  padding: 10px 0;
+}
+
+.loggo-text{
+  font-size: 2em;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
