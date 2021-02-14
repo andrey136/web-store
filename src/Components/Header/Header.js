@@ -9,20 +9,7 @@ class Header extends React.Component {
     <div className="Header">
       <header>
         <h1 className="LandingPage">Landing Page</h1>
-        <MainNavigation />
-        {/* <div className="subNav">
-          <div className="container flex_container">
-            <div className="logo">Device world</div>
-            <div class="input-group mb-3">
-              <input type="text" className="form-control" placeholder="Поиск по сайту" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
-              <button className="btn btn-outline-secondary" type="button" id="button-addon2">Искать</button>
-            </div>
-              <div className="container_flex cartSingUpNav">
-                <div className="cart">Корзина</div>
-                <div className="singIn">Войти</div>
-              </div>
-            </div>
-          </div> */}
+          <MainNavigation />
           <SubNavigation />
       </header>
     </div>

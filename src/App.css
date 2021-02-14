@@ -121,7 +121,7 @@ body{
   border-radius: 5px;
 }
 
-.first-banner{
+/* .first-banner{
   width: 960px;
   height: 150px;
   background: white;
@@ -129,6 +129,13 @@ body{
   font-size: 3em;
   text-align: center;
   color: rgb(103, 138, 34);
+  margin: 20px auto;
+} */
+
+.first-banner img{
+  width: 960px;
+  height: 303px;
+  border-radius: 5px;
   margin: 20px auto;
 }
 
@@ -150,7 +157,7 @@ body{
 
 .row-products{
   margin-top: 20px;
-  background: rgba(255, 255, 0, 0.329);
+  /* background: rgba(255, 255, 0, 0.329); */
 }
 
 .row-products .flex-container{
@@ -160,14 +167,33 @@ body{
 .product{
   height: 120px;
   width: 320px;
-  background: rgba(204, 120, 204, 0.52);
+  /* background: rgba(204, 120, 204, 0.52); */
   display: flex;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-relative:hover .product{
+  position: relative;
+  z-index: 100;
+  top: -10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 2px #ccc;
+}
+
+.product img{
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .product .img{
   width: 120px;
   height: 120px;
-  background: rgba(205, 134, 63, 0.527);
+  padding: 10px;
 }
 
 .product .img img{
@@ -178,19 +204,25 @@ body{
   display: inline-block;
   height: 120px;
   width: 200px;
+  cursor: default;
 }
 
 .Description .model-info{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
-  padding-top: 15px;
+  padding: 15px 10px 0 0;
   height: 55px;
+}
+
+.Description .model-info:hover{
+  color: rgb(255, 73, 56);
+  cursor: pointer;
 }
 
 .Description .model-price{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
-  padding: 15px 7px 0;
+  padding: 15px 10px 0 0;
   height: 45px
 }
 
@@ -230,6 +262,100 @@ body{
   float: right;
   border-radius: 5px;
 }
+
+/* Footer ------------------------------------------------------------------------------------ */
+
+.main-footer{
+  background: rgb(39, 34, 34);
+  height: 200px;
+  width: 100%
+
+}
+
+.footer-seperate-line{
+  height: 1px;
+  background:grey;
+}
+
+.main-footer-container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.companiy-loggo-footer{
+  padding: 10px 0;
+}
+
+.loggo-text{
+  font-size: 2em;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  text-align: left;
+  font-weight: bold;
+}
+
+.main-footer-container .flex_container{
+  justify-content: space-between;
+}
+
+.contanct-info{
+  width: 340px;
+  height: 100px;
+  /* background: rgb(175, 105, 255); */
+  margin-top: 20px;
+}
+
+.description{
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+
+.phone-number{
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.address{
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+
+.social-media{
+  width: 300px;
+  height: 100px;
+  /* background: rgb(135, 255, 105); */
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.text-heading-footer{
+  /* color: rgb(0, 0, 0); */
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.footer-nav{
+  justify-content: space-between;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background: orchid;
+  /* color: rgb(102, 102, 128) */
+}
+
+
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
