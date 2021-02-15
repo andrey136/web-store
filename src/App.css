@@ -142,8 +142,7 @@ body{
 .first-row-products{
   margin: 20px auto;
   width: 960px;
-  height: 230px;
-  background: white;
+  /* background: white; */
   border-radius: 5px;
   color: black;
   font-size: 3em;
@@ -160,25 +159,28 @@ body{
   /* background: rgba(255, 255, 0, 0.329); */
 }
 
-.row-products .flex-container{
-  justify-content: space-evenly;
+.row-products .flex_container{
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .product{
   height: 120px;
-  width: 320px;
-  /* background: rgba(204, 120, 204, 0.52); */
+  width: 307px;
+  background: white;
+  border-radius: 5px;
   display: flex;
 }
 
 .position-relative{
   position: relative;
+  margin-top: 20px;
 }
 
 .position-relative:hover .product{
   position: relative;
   z-index: 100;
-  top: -10px;
+  top: -6px;
   border-radius: 5px;
   box-shadow: 0 2px 5px 2px #ccc;
 }
@@ -201,17 +203,20 @@ body{
 }
 
 .Description{
-  display: inline-block;
+  display: flex;
   height: 120px;
   width: 200px;
   cursor: default;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: left;
 }
 
 .Description .model-info{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   padding: 15px 10px 0 0;
-  height: 55px;
+  /* height: 55px; */
 }
 
 .Description .model-info:hover{
