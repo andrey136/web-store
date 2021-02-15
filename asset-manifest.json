@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/web-store-client/static/css/main.ac698265.chunk.css",
-    "main.js": "/web-store-client/static/js/main.0ee4c0ad.chunk.js",
-    "main.js.map": "/web-store-client/static/js/main.0ee4c0ad.chunk.js.map",
+    "main.css": "/web-store-client/static/css/main.b91baa4c.chunk.css",
+    "main.js": "/web-store-client/static/js/main.71238a36.chunk.js",
+    "main.js.map": "/web-store-client/static/js/main.71238a36.chunk.js.map",
     "runtime-main.js": "/web-store-client/static/js/runtime-main.9bd65cad.js",
     "runtime-main.js.map": "/web-store-client/static/js/runtime-main.9bd65cad.js.map",
     "static/js/2.8aeba809.chunk.js": "/web-store-client/static/js/2.8aeba809.chunk.js",
     "static/js/2.8aeba809.chunk.js.map": "/web-store-client/static/js/2.8aeba809.chunk.js.map",
     "index.html": "/web-store-client/index.html",
-    "static/css/main.ac698265.chunk.css.map": "/web-store-client/static/css/main.ac698265.chunk.css.map",
+    "static/css/main.b91baa4c.chunk.css.map": "/web-store-client/static/css/main.b91baa4c.chunk.css.map",
     "static/js/2.8aeba809.chunk.js.LICENSE.txt": "/web-store-client/static/js/2.8aeba809.chunk.js.LICENSE.txt",
-    "static/media/banner2.e9cba4fa.jpg": "/web-store-client/static/media/banner2.e9cba4fa.jpg"
+    "static/media/banner2.e9cba4fa.jpg": "/web-store-client/static/media/banner2.e9cba4fa.jpg",
+    "static/media/fridge.c9e72d94.jpg": "/web-store-client/static/media/fridge.c9e72d94.jpg",
+    "static/media/iphone-pic.a2847a7c.jpg": "/web-store-client/static/media/iphone-pic.a2847a7c.jpg",
+    "static/media/samsung-tv.9a3bbd38.jpg": "/web-store-client/static/media/samsung-tv.9a3bbd38.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9bd65cad.js",
     "static/js/2.8aeba809.chunk.js",
-    "static/css/main.ac698265.chunk.css",
-    "static/js/main.0ee4c0ad.chunk.js"
+    "static/css/main.b91baa4c.chunk.css",
+    "static/js/main.71238a36.chunk.js"
   ]
 }
