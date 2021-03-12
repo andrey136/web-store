@@ -1,16 +1,20 @@
 import React from 'react';
 import '../../App.css';
+import front_pic from '../../img/factory_pic.jpg'
 
 class InformationForm extends React.Component {
     render(){
         return (
         <div className="information-form sample flex-container">
-            <div className="blue">
-                Фото
+            <div className="front-pic">
+                <img src={front_pic}></img>
             </div>
-            <div className="green">
-                О нас
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="company-description">
+                <div className="title">О нас</div>
+                <p>Наша компания работает на рынке с 2017 года. Команда наших экспертов и 
+                    аналитиков следят за обновлениями и предлагают одни из самых выгодных предложений в сфере 
+                    электронной техники.</p>
+                <p>Помимо нашей основной деятельности мы соотрудничаем с благотворительными организациями. Десять процентов от нашей выручки мы отправляем в детский фонд. </p>
             </div>
         </div>
   );
