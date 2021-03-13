@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/web-store-client/static/css/main.b91baa4c.chunk.css",
-    "main.js": "/web-store-client/static/js/main.71238a36.chunk.js",
-    "main.js.map": "/web-store-client/static/js/main.71238a36.chunk.js.map",
+    "main.css": "/web-store-client/static/css/main.9ac02807.chunk.css",
+    "main.js": "/web-store-client/static/js/main.7bd2574b.chunk.js",
+    "main.js.map": "/web-store-client/static/js/main.7bd2574b.chunk.js.map",
     "runtime-main.js": "/web-store-client/static/js/runtime-main.9bd65cad.js",
     "runtime-main.js.map": "/web-store-client/static/js/runtime-main.9bd65cad.js.map",
-    "static/js/2.8aeba809.chunk.js": "/web-store-client/static/js/2.8aeba809.chunk.js",
-    "static/js/2.8aeba809.chunk.js.map": "/web-store-client/static/js/2.8aeba809.chunk.js.map",
+    "static/js/2.5d3307f8.chunk.js": "/web-store-client/static/js/2.5d3307f8.chunk.js",
+    "static/js/2.5d3307f8.chunk.js.map": "/web-store-client/static/js/2.5d3307f8.chunk.js.map",
     "index.html": "/web-store-client/index.html",
-    "static/css/main.b91baa4c.chunk.css.map": "/web-store-client/static/css/main.b91baa4c.chunk.css.map",
-    "static/js/2.8aeba809.chunk.js.LICENSE.txt": "/web-store-client/static/js/2.8aeba809.chunk.js.LICENSE.txt",
+    "static/css/main.9ac02807.chunk.css.map": "/web-store-client/static/css/main.9ac02807.chunk.css.map",
+    "static/js/2.5d3307f8.chunk.js.LICENSE.txt": "/web-store-client/static/js/2.5d3307f8.chunk.js.LICENSE.txt",
+    "static/media/Tv-screen-2.jpg": "/web-store-client/static/media/Tv-screen-2.ee8f6360.jpg",
+    "static/media/Tv-screen.jpg": "/web-store-client/static/media/Tv-screen.e88abdfb.jpg",
     "static/media/banner2.e9cba4fa.jpg": "/web-store-client/static/media/banner2.e9cba4fa.jpg",
-    "static/media/fridge.c9e72d94.jpg": "/web-store-client/static/media/fridge.c9e72d94.jpg",
-    "static/media/iphone-pic.a2847a7c.jpg": "/web-store-client/static/media/iphone-pic.a2847a7c.jpg",
-    "static/media/samsung-tv.9a3bbd38.jpg": "/web-store-client/static/media/samsung-tv.9a3bbd38.jpg"
+    "static/media/factory_pic.06092358.jpg": "/web-store-client/static/media/factory_pic.06092358.jpg",
+    "static/media/fridge-1.jpg": "/web-store-client/static/media/fridge-1.c9e72d94.jpg",
+    "static/media/iphone-pic.jpg": "/web-store-client/static/media/iphone-pic.a2847a7c.jpg",
+    "static/media/laptop-2.jpg": "/web-store-client/static/media/laptop-2.7f905c20.jpg",
+    "static/media/phone-2.jpg": "/web-store-client/static/media/phone-2.d62c47aa.jpg",
+    "static/media/samsung-tv.jpg": "/web-store-client/static/media/samsung-tv.9a3bbd38.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9bd65cad.js",
-    "static/js/2.8aeba809.chunk.js",
-    "static/css/main.b91baa4c.chunk.css",
-    "static/js/main.71238a36.chunk.js"
+    "static/js/2.5d3307f8.chunk.js",
+    "static/css/main.9ac02807.chunk.css",
+    "static/js/main.7bd2574b.chunk.js"
   ]
 }
