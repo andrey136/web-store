@@ -8,8 +8,8 @@ class Header extends React.Component {
         return (
     <div className="Header">
       <header>
-        <h1 className="LandingPage">Landing Page</h1>
-          <MainNavigation />
+        {/* <h1 className="LandingPage">Landing Page</h1> */}
+          <MainNavigation change_page={(code) => this.props.change_page(code)}/>
           <SubNavigation />
       </header>
     </div>

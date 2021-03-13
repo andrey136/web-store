@@ -4,7 +4,7 @@ import Banner from './Banner'
 import '../../App.css';
 import icon_1 from '../../img/iphone-pic.jpg';
 import icon_2 from '../../img/samsung-tv.jpg';
-import icon_3 from '../../img/fridge.jpg';
+import icon_3 from '../../img/fridge-1.jpg';
 
 class MainContent extends React.Component {
 

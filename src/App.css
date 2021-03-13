@@ -14,6 +14,12 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
 	display: block;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body{
   background: #f6f6f6;
 }
@@ -32,7 +38,7 @@ body{
 /* Header ------------------------------------------------------------------- */
 
 .MainNavigation{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background: orchid;
   color: white;
   padding: 10px 0;
@@ -382,8 +388,92 @@ body{
   /* color: rgb(102, 102, 128) */
 }
 
+/* Category Page ------------------------------------------------------------------ */
+.category-page{
+  text-align: left;
+  margin: 0 auto;
+  width: 960px;
+  min-height: 700px;
+}
+
+#title-category-page{
+  text-align: left;
+  margin-top: 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.category-product-form{
+  background: white;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.category-product-form .img{
+  width: 200px;
+  float:left;
+}
+
+.category-product-form img{
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.main-product-info-nav{
+  width: 700px;
+  float: right;
+}
+
+.product-title{
+  font-size: 2em;
+}
+
+.product-description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  min-height: 120px;
+}
+
+.product-price-cart-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+/* .product-price{
+
+} */
+
+.product-add-cart{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-to-card-btn{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: rgb(50, 214, 50);
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.add-to-card-btn:hover{
+  background: rgb(159, 223, 159);
+  cursor: pointer;
+}
 
 
+.product-quantity{
+  /* text-indent: 2vw; */
+  background: rgb(238, 226, 226);
+  border: 1px solid rgb(44, 43, 43);
+  padding: 5px;
+  border-radius: 4px;
+}
 
 /* .App-logo {
   height: 40vmin;
