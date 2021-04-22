@@ -257,6 +257,11 @@ body{
   height: 333px;
 }
 
+.background{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* .blue{
   background: rgba(0, 0, 255, 0.678);
   height: 350px;
